@@ -1,0 +1,72 @@
+@import 'buttons.css';
+
+body {
+    background-color: plum;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    max-inline-size: 850px;
+    margin: auto;
+}
+.player {
+    position: relative;
+}
+.player video {
+    inline-size: 100%;
+}
+
+.hoverlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .2s opacity;
+}
+.hoverlay:hover {
+    opacity: 1;
+}
+
+.video-title {
+    color: #ffff;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+
+}
+.button:active {
+    transform: scale(.9)
+}
+
+
+.player-button {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.video-progress {
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline: 0;
+    display: flex;
+    padding: 15px;
+}
+.video-progress input {
+    flex: 1;
+
+}

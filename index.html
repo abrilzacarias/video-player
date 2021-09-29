@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Video Player</title>
+</head>
+<body>
+    <main>
+        <div class="wrap">
+            <h2 class="video-title">MUSIC</h2>
+            <div class="player">
+                <video id="video" src="trailer.mp4"></video>
+                <div class="hoverlay">
+                    <div class="player-button">
+                        <button class="button" id="backward" alt="10 seconds backwards" title="10 seconds backwards"></button>
+                        <button class="button" id="play" alt="play video" title="play video"></button>
+                        <button class="button" id="pause" alt="pause video" title="pause video" hidden></button>
+                        <button class="button" id="forward" alt="10 seconds forward" title="10 seconds forward"></button>
+                    </div>
+                    <div class="video-progress">
+                        <input id="progress" type="range" min="0" max="0" value="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
+
