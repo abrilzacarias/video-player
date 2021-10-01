@@ -1,18 +1,18 @@
 #play {
-    background-image: url(play.svg);
+    background-image: url(images/play.svg);
 
 }
 
 #pause {
-    background-image: url(pause.svg);
+    background-image: url(images/pause.svg);
 
 }
 
 #backward {
-    background-image: url(-10.svg);
+    background-image: url(images/-10.svg);
 
 }
 
 #forward {
-    background-image: url(+10.svg);
+    background-image: url(images/+10.svg);
 }
